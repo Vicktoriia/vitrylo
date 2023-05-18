@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export const Navigation = (props) => {
+export const Navigation = props => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -11,17 +11,22 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            {' '}
+            <span className="sr-only">Toggle navigation</span>{' '}
+            <span className="icon-bar"></span>{' '}
+            <span className="icon-bar"></span>{' '}
+            <span className="icon-bar"></span>{' '}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <i class="fa fa-lightbulb-o">
-              <span>GRANDEX</span>
-            </i>
-          </a>{" "}
+            <svg
+              className="top-menu__contacts-icon icon--logo"
+              width="10px"
+              height="16px"
+            >
+              <use href="./img/icon-logo.svg"></use>
+            </svg>
+            <span>GRANDEX</span>
+          </a>{' '}
         </div>
 
         <div

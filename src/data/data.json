@@ -132,7 +132,7 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": ".",
       "name": "John Doe",
       "job": "Director"
     },
